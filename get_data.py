@@ -2,9 +2,7 @@ import json
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import os
-import pprint
 import csv
-import google_auth_oauthlib.flow
 import googleapiclient.discovery
 import googleapiclient.errors
 
@@ -30,7 +28,7 @@ def get_list():
             j+=1
             year = data[i-j]["Year"]
 
-        list.append([track_title,artist,year])
+        list.append([track_title,artist,int(year)])
     return(list)
 
 def get_spotify_data(title,artist):
@@ -38,12 +36,11 @@ def get_spotify_data(title,artist):
     result = sp.search(q=query,limit=1,type='track')
     try:
         track_id = result['tracks']['items'][0]['id']
-        popularity = result['tracks']['items'][0]['popularity']
+        popularity = int(result['tracks']['items'][0]['popularity'])
 
         artist_result = sp.search(q=artist,limit=1,type='artist')
-        artist_popularity = artist_result['artists']['items'][0]['popularity']
-        artist_followers = artist_result['artists']['items'][0]['followers']['total']
-        print([title,popularity,artist_popularity,artist_followers])
+        artist_popularity = int(artist_result['artists']['items'][0]['popularity'])
+        artist_followers = int(artist_result['artists']['items'][0]['followers']['total'])
         return(popularity,artist_popularity,artist_followers)
     except:
         print(title,artist)
@@ -57,9 +54,9 @@ def compile_data():
         track = item[0]
         artist = item[1]
         popularity,artist_popularity,artist_followers = get_spotify_data(track,artist)
-        item.append(popularity)
-        item.append(artist_popularity)
-        item.append(artist_followers)
+        view_count = youtube_data(track,artist)
+        for attribute in [popularity,artist_popularity,artist_followers,view_count]:
+            item.append(attribute)
         writer.writerow(item)
 
 def youtube_data(title,artist):
@@ -86,7 +83,8 @@ def youtube_data(title,artist):
         id=video_id
     )
     view_response = view_request.execute()
-    
+    statistics = view_response['items'][0]['statistics']
+    view_count = int(statistics['viewCount'])
+    return(view_count)
 
 compile_data()
-youtube_data
