@@ -1,13 +1,24 @@
 import json
-import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials
 import os
 import csv
-import googleapiclient.discovery
-import googleapiclient.errors
+import datetime
+from datetime import date
+from datetime import datetime
+import requests
+import urllib.parse
 
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=os.getenv('CLIENT_ID'),
-                                                               client_secret=os.getenv('CLIENT_SECRET')))
+import spotipy
+from spotipy.oauth2 import SpotifyOAuth
+
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=os.getenv('CLIENT_ID'),
+                                                            client_secret=os.getenv('CLIENT_SECRET'),
+                                                            redirect_uri=os.getenv('URI'),
+                                                            scope="playlist-modify-private"))
+
+DEVELOPER_KEY = os.getenv("API_KEY")
+
+search_url = "https://youtube.googleapis.com/youtube/v3/search?"
+list_url = "https://youtube.googleapis.com/youtube/v3/videos?"
 
 def get_list():
     reader = open("singles_list.json")
@@ -41,50 +52,86 @@ def get_spotify_data(title,artist):
         artist_result = sp.search(q=artist,limit=1,type='artist')
         artist_popularity = int(artist_result['artists']['items'][0]['popularity'])
         artist_followers = int(artist_result['artists']['items'][0]['followers']['total'])
-        return(popularity,artist_popularity,artist_followers)
+        artist_genres = artist_result['artists']['items'][0]['genres']
+        return(popularity,artist_popularity,artist_followers,artist_genres)
     except:
         print(title,artist)
+
+def get_track_ids():
+    writer = csv.writer(open('track_id.csv','w'))
+    for track in get_list():
+        title = track[0]
+        artist = track[1]
+        query = title + " " + artist
+        result = sp.search(q=query,limit=1,type='track')
+        track_id = result['tracks']['items'][0]['id']
+        writer.writerow([track_id])
     
-def compile_data():
+def compile_data(start,end):
     list = get_list()
-    f = open('data.csv','w')
+    f = open('data.csv','a')
     writer = csv.writer(f)
 
-    for item in list:
-        track = item[0]
-        artist = item[1]
-        popularity,artist_popularity,artist_followers = get_spotify_data(track,artist)
-        view_count = youtube_data(track,artist)
-        for attribute in [popularity,artist_popularity,artist_followers,view_count]:
-            item.append(attribute)
-        writer.writerow(item)
+    for i in range(start,end):
+        song = list[i]
+        track = song[0]
+        artist = song[1]
+        # years_since_release = current_year - item[2]
+        popularity,artist_popularity,artist_followers,artist_genres = get_spotify_data(track,artist)
+        view_count,upload_date = youtube_data(track,artist)
 
-def youtube_data(title,artist):
-    os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
+        days_elapsed = (datetime.now() - datetime.strptime(upload_date, "%Y-%m-%dT%H:%M:%SZ")).days #'2011-05-30T13:12:47Z'
+        for attribute in [popularity,artist_popularity,artist_followers,artist_genres,view_count,days_elapsed]:
+            song.append(attribute)
+        writer.writerow(song)
 
-    api_service_name = "youtube"
-    api_version = "v3"
-    DEVELOPER_KEY = os.getenv("API_KEY")
+def youtube_data(track_name,artist):
+    search_params = [
+        ('type', 'video'),
+        ('part', 'snippet'), 
+        ('part', 'id'),
+        ('maxResults', '1'), 
+        ('order', 'viewCount'),
+        ('q', track_name + " " + artist),
+        ('key', DEVELOPER_KEY)
+    ] 
+    response = requests.get(search_url + urllib.parse.urlencode(search_params)).json()
+    video_id = response["items"][0]["id"]["videoId"]
+    publish_date = response["items"][0]["snippet"]["publishedAt"]
 
-    youtube = googleapiclient.discovery.build(
-        api_service_name, api_version, developerKey = DEVELOPER_KEY)
+    views_params = [
+        ('part', 'statistics'),
+        ('id', video_id),
+        ('key', DEVELOPER_KEY)
+    ]
+    response = requests.get(list_url + urllib.parse.urlencode(views_params)).json()
+    views = response["items"][0]["statistics"]["viewCount"]
 
-    request = youtube.search().list(
-        part="snippet",
-        maxResults=1,
-        q = title + " " + artist
-    )
-    
-    response = request.execute()
-    video_id = response['items'][0]['id']['videoId']
-    
-    view_request = youtube.videos().list(
-        part="statistics",
-        id=video_id
-    )
-    view_response = view_request.execute()
-    statistics = view_response['items'][0]['statistics']
-    view_count = int(statistics['viewCount'])
-    return(view_count)
+    return(views,publish_date)
 
-compile_data()
+if __name__ == "__main__":
+    compile_data(40,60)
+
+# playlist_id = os.getenv("PLAYLIST_ID")
+
+# channel_id = {
+#     "Taylor Swift"
+# }
+
+# def create_spotify_playlist():
+    # track_csv = csv.reader(open("track_id.csv"))
+    # track_ids = []
+    # for row in track_csv:
+    #     track_ids.append(row[0])
+    # currently_reading = track_ids[200:250] #limit of 100 tracks at a time
+    # sp.playlist_add_items(playlist_id,currently_reading)
+
+# def youtube_data(video_id):
+#     view_request = youtube.videos().list(
+#         part="statistics",
+#         id=video_id
+#     )
+#     view_response = view_request.execute()
+#     statistics = view_response['items'][0]['statistics']
+#     view_count = int(statistics['viewCount'])
+#     return(view_count)
