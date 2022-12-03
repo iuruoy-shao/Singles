@@ -91,7 +91,7 @@ def youtube_data(track_name,artist):
         ('part', 'snippet'), 
         ('part', 'id'),
         ('maxResults', '1'), 
-        ('order', 'viewCount'),
+        ('order', 'relevance'),
         ('q', track_name + " " + artist),
         ('key', DEVELOPER_KEY)
     ] 
@@ -110,7 +110,7 @@ def youtube_data(track_name,artist):
     return(views,publish_date)
 
 if __name__ == "__main__":
-    compile_data(40,60)
+    compile_data(30,50)
 
 # playlist_id = os.getenv("PLAYLIST_ID")
 
