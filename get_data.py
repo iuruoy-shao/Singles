@@ -80,7 +80,8 @@ def compile_data(start,end):
         popularity,artist_popularity,artist_followers,artist_genres = get_spotify_data(track,artist)
         view_count,upload_date = youtube_data(track,artist)
 
-        days_elapsed = (datetime.now() - datetime.strptime(upload_date, "%Y-%m-%dT%H:%M:%SZ")).days #'2011-05-30T13:12:47Z'
+        #'2011-05-30T13:12:47Z'
+        days_elapsed = (datetime.now() - datetime.strptime(upload_date, "%Y-%m-%dT%H:%M:%SZ")).days
         for attribute in [popularity,artist_popularity,artist_followers,artist_genres,view_count,days_elapsed]:
             song.append(attribute)
         writer.writerow(song)
@@ -110,7 +111,7 @@ def youtube_data(track_name,artist):
     return(views,publish_date)
 
 if __name__ == "__main__":
-    compile_data(30,50)
+    compile_data(120,130)
 
 # playlist_id = os.getenv("PLAYLIST_ID")
 
