@@ -77,14 +77,17 @@ def compile_data(start,end):
         track = song[0]
         artist = song[1]
         # years_since_release = current_year - item[2]
-        popularity,artist_popularity,artist_followers,artist_genres = get_spotify_data(track,artist)
-        view_count,upload_date = youtube_data(track,artist)
+        try:
+            popularity,artist_popularity,artist_followers,artist_genres = get_spotify_data(track,artist)
+            view_count,upload_date = youtube_data(track,artist)
 
-        #'2011-05-30T13:12:47Z'
-        days_elapsed = (datetime.now() - datetime.strptime(upload_date, "%Y-%m-%dT%H:%M:%SZ")).days
-        for attribute in [popularity,artist_popularity,artist_followers,artist_genres,view_count,days_elapsed]:
-            song.append(attribute)
-        writer.writerow(song)
+            #'2011-05-30T13:12:47Z'
+            days_elapsed = (datetime.now() - datetime.strptime(upload_date, "%Y-%m-%dT%H:%M:%SZ")).days
+            for attribute in [popularity,artist_popularity,artist_followers,artist_genres,view_count,days_elapsed]:
+                song.append(attribute)
+            writer.writerow(song)
+        except:
+            break
 
 def youtube_data(track_name,artist):
     search_params = [
@@ -111,7 +114,7 @@ def youtube_data(track_name,artist):
     return(views,publish_date)
 
 if __name__ == "__main__":
-    compile_data(120,130)
+    compile_data(198,200)
 
 # playlist_id = os.getenv("PLAYLIST_ID")
 
