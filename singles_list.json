@@ -8,13 +8,13 @@
     {
       "ID": "1",
       "Title": "\"Yellow\"",
-      "Year": "",
+      "Year": "2000",
       "Artist": "Coldplay"
     },
     {
       "ID": "2",
       "Title": "\"Trouble\"",
-      "Year": "",
+      "Year": "2000",
       "Artist": "Coldplay"
     },
     {
@@ -32,7 +32,7 @@
     {
       "ID": "5",
       "Title": "\"The Scientist\"",
-      "Year": "",
+      "Year": "2002",
       "Artist": "Coldplay"
     },
     {
@@ -44,7 +44,7 @@
     {
       "ID": "7",
       "Title": "\"God Put a Smile upon Your Face\"",
-      "Year": "",
+      "Year": "2003",
       "Artist": "Coldplay"
     },
     {
@@ -56,13 +56,13 @@
     {
       "ID": "9",
       "Title": "\"Fix You\"",
-      "Year": "",
+      "Year": "2005",
       "Artist": "Coldplay"
     },
     {
       "ID": "10",
       "Title": "\"Talk\"",
-      "Year": "",
+      "Year": "2005",
       "Artist": "Coldplay"
     },
     {
@@ -80,7 +80,7 @@
     {
       "ID": "13",
       "Title": "\"Viva la Vida\"",
-      "Year": "",
+      "Year": "2008",
       "Artist": "Coldplay"
     },
     {
@@ -92,7 +92,7 @@
     {
       "ID": "15",
       "Title": "\"Strawberry Swing\"",
-      "Year": "",
+      "Year": "2009",
       "Artist": "Coldplay"
     },
     {
@@ -110,7 +110,7 @@
     {
       "ID": "18",
       "Title": "\"Paradise\"",
-      "Year": "",
+      "Year": "2011",
       "Artist": "Coldplay"
     },
     {
@@ -122,13 +122,13 @@
     {
       "ID": "20",
       "Title": "\"Princess of China\" (with Rihanna)",
-      "Year": "",
+      "Year": "2012",
       "Artist": "Coldplay"
     },
     {
       "ID": "21",
       "Title": "\"Hurts Like Heaven\"",
-      "Year": "",
+      "Year": "2012",
       "Artist": "Coldplay"
     },
     {
@@ -146,19 +146,19 @@
     {
       "ID": "24",
       "Title": "\"A Sky Full of Stars\"",
-      "Year": "",
+      "Year": "2014",
       "Artist": "Coldplay"
     },
     {
       "ID": "25",
       "Title": "\"True Love\"",
-      "Year": "",
+      "Year": "2014",
       "Artist": "Coldplay"
     },
     {
       "ID": "26",
       "Title": "\"Ink\"",
-      "Year": "",
+      "Year": "2014",
       "Artist": "Coldplay"
     },
     {
@@ -176,19 +176,19 @@
     {
       "ID": "29",
       "Title": "\"Up&Up\"",
-      "Year": "",
+      "Year": "2016",
       "Artist": "Coldplay"
     },
     {
       "ID": "30",
       "Title": "\"A Head Full of Dreams\"",
-      "Year": "",
+      "Year": "2016",
       "Artist": "Coldplay"
     },
     {
       "ID": "31",
       "Title": "\"Everglow\"",
-      "Year": "",
+      "Year": "2016",
       "Artist": "Coldplay"
     },
     {
@@ -200,7 +200,7 @@
     {
       "ID": "33",
       "Title": "\"Miracles (Someone Special)\" (with Big Sean)",
-      "Year": "",
+      "Year": "2017",
       "Artist": "Coldplay"
     },
     {
@@ -212,7 +212,7 @@
     {
       "ID": "35",
       "Title": "\"My Universe\" (with BTS)",
-      "Year": "",
+      "Year": "2021",
       "Artist": "Coldplay"
     },
     {
@@ -278,7 +278,7 @@
     {
       "ID": "46",
       "Title": "\"Aawake at Night\"",
-      "Year": "",
+      "Year": "2017",
       "Artist": "half•alive"
     },
     {
@@ -296,25 +296,25 @@
     {
       "ID": "49",
       "Title": "\"Runaway\"",
-      "Year": "",
+      "Year": "2019",
       "Artist": "half•alive"
     },
     {
       "ID": "50",
       "Title": "\"Pure Gold\"",
-      "Year": "",
+      "Year": "2019",
       "Artist": "half•alive"
     },
     {
       "ID": "51",
       "Title": "\"OK OK?\"",
-      "Year": "",
+      "Year": "2019",
       "Artist": "half•alive"
     },
     {
       "ID": "52",
       "Title": "\"Breakfast\"[70]",
-      "Year": "",
+      "Year": "2019",
       "Artist": "half•alive"
     },
     {
@@ -326,25 +326,25 @@
     {
       "ID": "54",
       "Title": "\"Time 2\"",
-      "Year": "",
+      "Year": "2021",
       "Artist": "half•alive"
     },
     {
       "ID": "55",
       "Title": "\"Summerland\"",
-      "Year": "",
+      "Year": "2021",
       "Artist": "half•alive"
     },
     {
       "ID": "56",
       "Title": "\"Make of It\"",
-      "Year": "",
+      "Year": "2021",
       "Artist": "half•alive"
     },
     {
       "ID": "57",
       "Title": "\"Hot Tea\"",
-      "Year": "",
+      "Year": "2021",
       "Artist": "half•alive"
     },
     {
@@ -368,7 +368,7 @@
     {
       "ID": "61",
       "Title": "\"DNA\"",
-      "Year": "",
+      "Year": "2012",
       "Artist": "Little Mix"
     },
     {
@@ -380,19 +380,19 @@
     {
       "ID": "63",
       "Title": "\"How Ya Doin'?\" (featuring Missy Elliott)",
-      "Year": "",
+      "Year": "2013",
       "Artist": "Little Mix"
     },
     {
       "ID": "64",
       "Title": "\"Move\"",
-      "Year": "",
+      "Year": "2013",
       "Artist": "Little Mix"
     },
     {
       "ID": "65",
       "Title": "\"Little Me\"",
-      "Year": "",
+      "Year": "2013",
       "Artist": "Little Mix"
     },
     {
@@ -404,7 +404,7 @@
     {
       "ID": "67",
       "Title": "\"Salute\"",
-      "Year": "",
+      "Year": "2014",
       "Artist": "Little Mix"
     },
     {
@@ -416,7 +416,7 @@
     {
       "ID": "69",
       "Title": "\"Love Me Like You\"",
-      "Year": "",
+      "Year": "2015",
       "Artist": "Little Mix"
     },
     {
@@ -428,19 +428,19 @@
     {
       "ID": "71",
       "Title": "\"Hair\" (featuring Sean Paul)",
-      "Year": "",
+      "Year": "2016",
       "Artist": "Little Mix"
     },
     {
       "ID": "72",
       "Title": "\"Shout Out to My Ex\"",
-      "Year": "",
+      "Year": "2016",
       "Artist": "Little Mix"
     },
     {
       "ID": "73",
       "Title": "\"Touch\"",
-      "Year": "",
+      "Year": "2016",
       "Artist": "Little Mix"
     },
     {
@@ -452,7 +452,7 @@
     {
       "ID": "75",
       "Title": "\"Power\" (featuring Stormzy)",
-      "Year": "",
+      "Year": "2017",
       "Artist": "Little Mix"
     },
     {
@@ -464,7 +464,7 @@
     {
       "ID": "77",
       "Title": "\"Woman Like Me\" (featuring Nicki Minaj)",
-      "Year": "",
+      "Year": "2018",
       "Artist": "Little Mix"
     },
     {
@@ -476,13 +476,13 @@
     {
       "ID": "79",
       "Title": "\"Bounce Back\"[Y]",
-      "Year": "",
+      "Year": "2019",
       "Artist": "Little Mix"
     },
     {
       "ID": "80",
       "Title": "\"One I've Been Missing\"[AC]",
-      "Year": "",
+      "Year": "2019",
       "Artist": "Little Mix"
     },
     {
@@ -494,19 +494,19 @@
     {
       "ID": "82",
       "Title": "\"Holiday\"",
-      "Year": "",
+      "Year": "2020",
       "Artist": "Little Mix"
     },
     {
       "ID": "83",
       "Title": "\"Sweet Melody\"",
-      "Year": "",
+      "Year": "2020",
       "Artist": "Little Mix"
     },
     {
       "ID": "84",
       "Title": "\"No Time for Tears\"[AN] (with Nathan Dawe)",
-      "Year": "",
+      "Year": "2020",
       "Artist": "Little Mix"
     },
     {
@@ -518,25 +518,25 @@
     {
       "ID": "86",
       "Title": "\"Heartbreak Anthem\" (with Galantis and David Guetta)",
-      "Year": "",
+      "Year": "2021",
       "Artist": "Little Mix"
     },
     {
       "ID": "87",
       "Title": "\"Kiss My (Uh-Oh)\"[98] (with Anne-Marie)",
-      "Year": "",
+      "Year": "2021",
       "Artist": "Little Mix"
     },
     {
       "ID": "88",
       "Title": "\"Love (Sweet Love)\"[100]",
-      "Year": "",
+      "Year": "2021",
       "Artist": "Little Mix"
     },
     {
       "ID": "89",
       "Title": "\"No\"[102]",
-      "Year": "",
+      "Year": "2021",
       "Artist": "Little Mix"
     },
     {
@@ -548,7 +548,7 @@
     {
       "ID": "91",
       "Title": "\"Emergency\"[54]",
-      "Year": "",
+      "Year": "2005",
       "Artist": "Paramore"
     },
     {
@@ -566,13 +566,13 @@
     {
       "ID": "94",
       "Title": "\"Hallelujah\"[57]",
-      "Year": "",
+      "Year": "2007",
       "Artist": "Paramore"
     },
     {
       "ID": "95",
       "Title": "\"Crushcrushcrush\"[58]",
-      "Year": "",
+      "Year": "2007",
       "Artist": "Paramore"
     },
     {
@@ -584,7 +584,7 @@
     {
       "ID": "97",
       "Title": "\"Decode\"[60]",
-      "Year": "",
+      "Year": "2008",
       "Artist": "Paramore"
     },
     {
@@ -596,7 +596,7 @@
     {
       "ID": "99",
       "Title": "\"Brick by Boring Brick\"[64]",
-      "Year": "",
+      "Year": "2009",
       "Artist": "Paramore"
     },
     {
@@ -608,25 +608,25 @@
     {
       "ID": "101",
       "Title": "\"Careful\"[67]",
-      "Year": "",
+      "Year": "2010",
       "Artist": "Paramore"
     },
     {
       "ID": "102",
       "Title": "\"Playing God\"[69]",
-      "Year": "",
+      "Year": "2010",
       "Artist": "Paramore"
     },
     {
       "ID": "103",
       "Title": "\"Still Into You\"[73]",
-      "Year": "",
+      "Year": "2010",
       "Artist": "Paramore"
     },
     {
       "ID": "104",
       "Title": "\"Daydreaming\"[76]",
-      "Year": "",
+      "Year": "2010",
       "Artist": "Paramore"
     },
     {
@@ -644,13 +644,13 @@
     {
       "ID": "107",
       "Title": "\"Told You So\"[82]",
-      "Year": "",
+      "Year": "2017",
       "Artist": "Paramore"
     },
     {
       "ID": "108",
       "Title": "\"Fake Happy\"[85]",
-      "Year": "",
+      "Year": "2017",
       "Artist": "Paramore"
     },
     {
@@ -662,7 +662,7 @@
     {
       "ID": "110",
       "Title": "\"Caught in the Middle\"[88]",
-      "Year": "",
+      "Year": "2018",
       "Artist": "Paramore"
     },
     {
@@ -680,7 +680,7 @@
     {
       "ID": "113",
       "Title": "\"I Could Be the One\" (vs. Nicky Romero)",
-      "Year": "",
+      "Year": "2011",
       "Artist": "Avicii"
     },
     {
@@ -692,19 +692,19 @@
     {
       "ID": "115",
       "Title": "\"You Make Me\"",
-      "Year": "",
+      "Year": "2013",
       "Artist": "Avicii"
     },
     {
       "ID": "116",
       "Title": "\"Hey Brother\"",
-      "Year": "",
+      "Year": "2013",
       "Artist": "Avicii"
     },
     {
       "ID": "117",
       "Title": "\"Addicted to You\"",
-      "Year": "",
+      "Year": "2013",
       "Artist": "Avicii"
     },
     {
@@ -716,13 +716,13 @@
     {
       "ID": "119",
       "Title": "\"The Days\"",
-      "Year": "",
+      "Year": "2014",
       "Artist": "Avicii"
     },
     {
       "ID": "120",
       "Title": "\"The Nights\"",
-      "Year": "",
+      "Year": "2014",
       "Artist": "Avicii"
     },
     {
@@ -734,25 +734,25 @@
     {
       "ID": "122",
       "Title": "\"Waiting for Love\"",
-      "Year": "",
+      "Year": "2015",
       "Artist": "Avicii"
     },
     {
       "ID": "123",
       "Title": "\"For a Better Day\"",
-      "Year": "",
+      "Year": "2015",
       "Artist": "Avicii"
     },
     {
       "ID": "124",
       "Title": "\"Pure Grinding\"",
-      "Year": "",
+      "Year": "2015",
       "Artist": "Avicii"
     },
     {
       "ID": "125",
       "Title": "\"Broken Arrows\"",
-      "Year": "",
+      "Year": "2015",
       "Artist": "Avicii"
     },
     {
@@ -764,7 +764,7 @@
     {
       "ID": "127",
       "Title": "\"Lonely Together\" (featuring Rita Ora)",
-      "Year": "",
+      "Year": "2017",
       "Artist": "Avicii"
     },
     {
@@ -776,19 +776,19 @@
     {
       "ID": "129",
       "Title": "\"Tough Love\" (featuring Vargas & Lagola and Agnes)[92]",
-      "Year": "",
+      "Year": "2019",
       "Artist": "Avicii"
     },
     {
       "ID": "130",
       "Title": "\"Heaven\" (featuring Chris Martin)[93]",
-      "Year": "",
+      "Year": "2019",
       "Artist": "Avicii"
     },
     {
       "ID": "131",
       "Title": "\"Fades Away\" (Tribute Concert Version)[94] (featuring MishCatt)",
-      "Year": "",
+      "Year": "2019",
       "Artist": "Avicii"
     },
     {
@@ -812,13 +812,13 @@
     {
       "ID": "135",
       "Title": "\"Delight (환희)\"",
-      "Year": "",
+      "Year": "2005",
       "Artist": "PSY"
     },
     {
       "ID": "136",
       "Title": "\"Father (아버지)\"",
-      "Year": "",
+      "Year": "2005",
       "Artist": "PSY"
     },
     {
@@ -830,13 +830,13 @@
     {
       "ID": "138",
       "Title": "\"Entertainer (연예인)\"",
-      "Year": "",
+      "Year": "2006",
       "Artist": "PSY"
     },
     {
       "ID": "139",
       "Title": "\"Beautiful Goodbye 2 (아름다운 이별 2)\" (featuring Lee Jae-hoon)",
-      "Year": "",
+      "Year": "2006",
       "Artist": "PSY"
     },
     {
@@ -854,19 +854,19 @@
     {
       "ID": "142",
       "Title": "\"In My Eyes (내 눈에는)\" (featuring Lee Jae-hoon)",
-      "Year": "",
+      "Year": "2010",
       "Artist": "PSY"
     },
     {
       "ID": "143",
       "Title": "\"Thank You\" (featuring Seo In-Young)",
-      "Year": "",
+      "Year": "2010",
       "Artist": "PSY"
     },
     {
       "ID": "144",
       "Title": "\"Right Now\"",
-      "Year": "",
+      "Year": "2010",
       "Artist": "PSY"
     },
     {
@@ -878,7 +878,7 @@
     {
       "ID": "146",
       "Title": "\"Shake It (흔들어 주세요)\" (featuring Noh Hong-chul)",
-      "Year": "",
+      "Year": "2011",
       "Artist": "PSY"
     },
     {
@@ -890,13 +890,13 @@
     {
       "ID": "148",
       "Title": "\"Gangnam Style (강남스타일)\"",
-      "Year": "",
+      "Year": "2012",
       "Artist": "PSY"
     },
     {
       "ID": "149",
       "Title": "\"Oppa Is Just My Style (오빤 딱 내 스타일)\" (with Hyuna)",
-      "Year": "",
+      "Year": "2012",
       "Artist": "PSY"
     },
     {
@@ -914,7 +914,7 @@
     {
       "ID": "152",
       "Title": "\"Fifteen\"",
-      "Year": "",
+      "Year": "2009",
       "Artist": "Taylor Swift"
     },
     {
@@ -926,13 +926,13 @@
     {
       "ID": "154",
       "Title": "\"Mine\"",
-      "Year": "",
+      "Year": "2010",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "155",
       "Title": "\"Back to December\"",
-      "Year": "",
+      "Year": "2010",
       "Artist": "Taylor Swift"
     },
     {
@@ -944,19 +944,19 @@
     {
       "ID": "157",
       "Title": "\"The Story of Us\"",
-      "Year": "",
+      "Year": "2011",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "158",
       "Title": "\"Sparks Fly\"",
-      "Year": "",
+      "Year": "2011",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "159",
       "Title": "\"Ours\"",
-      "Year": "",
+      "Year": "2011",
       "Artist": "Taylor Swift"
     },
     {
@@ -968,25 +968,25 @@
     {
       "ID": "161",
       "Title": "\"We Are Never Ever Getting Back Together\"",
-      "Year": "",
+      "Year": "2012",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "162",
       "Title": "\"Ronan\"",
-      "Year": "",
+      "Year": "2012",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "163",
       "Title": "\"Begin Again\"",
-      "Year": "",
+      "Year": "2012",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "164",
       "Title": "\"I Knew You Were Trouble\"",
-      "Year": "",
+      "Year": "2012",
       "Artist": "Taylor Swift"
     },
     {
@@ -998,19 +998,19 @@
     {
       "ID": "166",
       "Title": "\"Red\"",
-      "Year": "",
+      "Year": "2013",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "167",
       "Title": "\"Everything Has Changed\" (featuring Ed Sheeran)",
-      "Year": "",
+      "Year": "2013",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "168",
       "Title": "\"The Last Time\" (featuring Gary Lightbody)",
-      "Year": "",
+      "Year": "2013",
       "Artist": "Taylor Swift"
     },
     {
@@ -1022,7 +1022,7 @@
     {
       "ID": "170",
       "Title": "\"Blank Space\"",
-      "Year": "",
+      "Year": "2014",
       "Artist": "Taylor Swift"
     },
     {
@@ -1034,13 +1034,13 @@
     {
       "ID": "172",
       "Title": "\"Bad Blood\" (solo or featuring Kendrick Lamar)",
-      "Year": "",
+      "Year": "2015",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "173",
       "Title": "\"Wildest Dreams\"",
-      "Year": "",
+      "Year": "2015",
       "Artist": "Taylor Swift"
     },
     {
@@ -1052,13 +1052,13 @@
     {
       "ID": "175",
       "Title": "\"New Romantics\"",
-      "Year": "",
+      "Year": "2016",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "176",
       "Title": "\"I Don't Wanna Live Forever\" (with Zayn)",
-      "Year": "",
+      "Year": "2016",
       "Artist": "Taylor Swift"
     },
     {
@@ -1070,19 +1070,19 @@
     {
       "ID": "178",
       "Title": "\"...Ready for It?\"",
-      "Year": "",
+      "Year": "2017",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "179",
       "Title": "\"End Game\" (featuring Ed Sheeran and Future)",
-      "Year": "",
+      "Year": "2017",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "180",
       "Title": "\"New Year's Day\"[109]",
-      "Year": "",
+      "Year": "2017",
       "Artist": "Taylor Swift"
     },
     {
@@ -1094,7 +1094,7 @@
     {
       "ID": "182",
       "Title": "\"Getaway Car\"[112]",
-      "Year": "",
+      "Year": "2018",
       "Artist": "Taylor Swift"
     },
     {
@@ -1106,19 +1106,19 @@
     {
       "ID": "184",
       "Title": "\"You Need to Calm Down\"",
-      "Year": "",
+      "Year": "2019",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "185",
       "Title": "\"Lover\"",
-      "Year": "",
+      "Year": "2019",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "186",
       "Title": "\"Christmas Tree Farm\"",
-      "Year": "",
+      "Year": "2019",
       "Artist": "Taylor Swift"
     },
     {
@@ -1130,25 +1130,25 @@
     {
       "ID": "188",
       "Title": "\"Cardigan\"",
-      "Year": "",
+      "Year": "2020",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "189",
       "Title": "\"Exile\" (featuring Bon Iver)",
-      "Year": "",
+      "Year": "2020",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "190",
       "Title": "\"Betty\"",
-      "Year": "",
+      "Year": "2020",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "191",
       "Title": "\"Willow\"",
-      "Year": "",
+      "Year": "2020",
       "Artist": "Taylor Swift"
     },
     {
@@ -1160,19 +1160,19 @@
     {
       "ID": "193",
       "Title": "\"Coney Island\" (featuring the National)",
-      "Year": "",
+      "Year": "2021",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "194",
       "Title": "\"I Bet You Think About Me\"[J] (featuring Chris Stapleton)",
-      "Year": "",
+      "Year": "2021",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "195",
       "Title": "\"Message in a Bottle\"[J]",
-      "Year": "",
+      "Year": "2021",
       "Artist": "Taylor Swift"
     },
     {
@@ -1184,25 +1184,25 @@
     {
       "ID": "197",
       "Title": "\"Beautiful Eyes\"[152]",
-      "Year": "",
+      "Year": "2008",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "198",
       "Title": "\"Change\"",
-      "Year": "",
+      "Year": "2008",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "199",
       "Title": "\"Breathe\" (featuring Colbie Caillat)",
-      "Year": "",
+      "Year": "2008",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "200",
       "Title": "\"You're Not Sorry\"",
-      "Year": "",
+      "Year": "2008",
       "Artist": "Taylor Swift"
     },
     {
@@ -1220,7 +1220,7 @@
     {
       "ID": "203",
       "Title": "\"Speak Now\"",
-      "Year": "",
+      "Year": "2010",
       "Artist": "Taylor Swift"
     },
     {
@@ -1232,13 +1232,13 @@
     {
       "ID": "205",
       "Title": "\"If This Was a Movie\"[155]",
-      "Year": "",
+      "Year": "2011",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "206",
       "Title": "\"Superman\"[155]",
-      "Year": "",
+      "Year": "2011",
       "Artist": "Taylor Swift"
     },
     {
@@ -1250,19 +1250,19 @@
     {
       "ID": "208",
       "Title": "\"Come Back... Be Here\"[159]",
-      "Year": "",
+      "Year": "2013",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "209",
       "Title": "\"Girl at Home\"[160]",
-      "Year": "",
+      "Year": "2013",
       "Artist": "Taylor Swift"
     },
     {
       "ID": "210",
       "Title": "\"Sweeter than Fiction\"",
-      "Year": "",
+      "Year": "2013",
       "Artist": "Taylor Swift"
     },
     {
@@ -1280,7 +1280,7 @@
     {
       "ID": "213",
       "Title": "\"You Are in Love\"[161]",
-      "Year": "",
+      "Year": "2015",
       "Artist": "Taylor Swift"
     },
     {
@@ -1292,7 +1292,7 @@
     {
       "ID": "215",
       "Title": "\"Call It What You Want\"",
-      "Year": "",
+      "Year": "2017",
       "Artist": "Taylor Swift"
     },
     {
@@ -1304,7 +1304,7 @@
     {
       "ID": "217",
       "Title": "\"Beautiful Ghosts\"",
-      "Year": "",
+      "Year": "2019",
       "Artist": "Taylor Swift"
     },
     {
@@ -1316,7 +1316,7 @@
     {
       "ID": "219",
       "Title": "\"The 1\"",
-      "Year": "",
+      "Year": "2020",
       "Artist": "Taylor Swift"
     },
     {
@@ -1328,7 +1328,7 @@
     {
       "ID": "221",
       "Title": "\"The Lakes\"",
-      "Year": "",
+      "Year": "2021",
       "Artist": "Taylor Swift"
     },
     {
@@ -1346,7 +1346,7 @@
     {
       "ID": "224",
       "Title": "\"Hot n Cold\"",
-      "Year": "",
+      "Year": "2008",
       "Artist": "Katy Perry"
     },
     {
@@ -1358,7 +1358,7 @@
     {
       "ID": "226",
       "Title": "\"Waking Up in Vegas\"",
-      "Year": "",
+      "Year": "2009",
       "Artist": "Katy Perry"
     },
     {
@@ -1370,13 +1370,13 @@
     {
       "ID": "228",
       "Title": "\"Teenage Dream\"",
-      "Year": "",
+      "Year": "2010",
       "Artist": "Katy Perry"
     },
     {
       "ID": "229",
       "Title": "\"Firework\"",
-      "Year": "",
+      "Year": "2010",
       "Artist": "Katy Perry"
     },
     {
@@ -1388,13 +1388,13 @@
     {
       "ID": "231",
       "Title": "\"Last Friday Night (T.G.I.F.)\"",
-      "Year": "",
+      "Year": "2011",
       "Artist": "Katy Perry"
     },
     {
       "ID": "232",
       "Title": "\"The One That Got Away\"",
-      "Year": "",
+      "Year": "2011",
       "Artist": "Katy Perry"
     },
     {
@@ -1406,7 +1406,7 @@
     {
       "ID": "234",
       "Title": "\"Wide Awake\"",
-      "Year": "",
+      "Year": "2012",
       "Artist": "Katy Perry"
     },
     {
@@ -1418,13 +1418,13 @@
     {
       "ID": "236",
       "Title": "\"Unconditionally\"",
-      "Year": "",
+      "Year": "2013",
       "Artist": "Katy Perry"
     },
     {
       "ID": "237",
       "Title": "\"Dark Horse\" (featuring Juicy J)",
-      "Year": "",
+      "Year": "2013",
       "Artist": "Katy Perry"
     },
     {
@@ -1436,7 +1436,7 @@
     {
       "ID": "239",
       "Title": "\"This Is How We Do\"",
-      "Year": "",
+      "Year": "2014",
       "Artist": "Katy Perry"
     },
     {
@@ -1460,7 +1460,7 @@
     {
       "ID": "243",
       "Title": "\"Harleys in Hawaii\"",
-      "Year": "",
+      "Year": "2019",
       "Artist": "Katy Perry"
     },
     {
@@ -1472,13 +1472,13 @@
     {
       "ID": "245",
       "Title": "\"Daisies\"",
-      "Year": "",
+      "Year": "2020",
       "Artist": "Katy Perry"
     },
     {
       "ID": "246",
       "Title": "\"Not the End of the World\"",
-      "Year": "",
+      "Year": "2020",
       "Artist": "Katy Perry"
     },
     {
@@ -1490,7 +1490,211 @@
     {
       "ID": "248",
       "Title": "\"When I'm Gone\" (with Alesso)",
-      "Year": "",
+      "Year": "2021",
       "Artist": "Katy Perry"
+    },
+    {
+      "ID": "249",
+      "Title": "\"Apologize\" (solo or with Timbaland)",
+      "Year": "2007",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "250",
+      "Title": "\"Stop and Stare\"",
+      "Year": "2008",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "251",
+      "Title": "\"Say (All I Need)\"",
+      "Year": "2008",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "252",
+      "Title": "\"Mercy\"[37]",
+      "Year": "2008",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "253",
+      "Title": "\"Come Home\" (with Sara Bareilles)",
+      "Year": "2009",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "254",
+      "Title": "\"All the Right Moves\"",
+      "Year": "2009",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "255",
+      "Title": "\"Secrets\"",
+      "Year": "2009",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "256",
+      "Title": "\"Marchin On\"",
+      "Year": "2010",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "257",
+      "Title": "\"Good Life\"",
+      "Year": "2010",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "258",
+      "Title": "\"If I Lose Myself\"[40]",
+      "Year": "2013",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "259",
+      "Title": "\"Counting Stars\"",
+      "Year": "2013",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "260",
+      "Title": "\"Something I Need\"",
+      "Year": "2013",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "261",
+      "Title": "\"If I Lose Myself\" (vs. Alesso)[45][B]",
+      "Year": "2014",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "262",
+      "Title": "\"Love Runs Out\"",
+      "Year": "2014",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "263",
+      "Title": "\"I Lived\"",
+      "Year": "2014",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "264",
+      "Title": "\"Wherever I Go\"",
+      "Year": "2016",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "265",
+      "Title": "\"Kids\"",
+      "Year": "2016",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "266",
+      "Title": "\"Let's Hurt Tonight\"",
+      "Year": "2016",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "267",
+      "Title": "\"No Vacancy\"",
+      "Year": "2017",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "268",
+      "Title": "\"Rich Love\" (with Seeb)",
+      "Year": "2017",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "269",
+      "Title": "\"Start Again\" (featuring Logic)",
+      "Year": "2018",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "270",
+      "Title": "\"Connection\"",
+      "Year": "2018",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "271",
+      "Title": "\"Rescue Me\"",
+      "Year": "2019",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "272",
+      "Title": "\"Wanted\"",
+      "Year": "2019",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "273",
+      "Title": "\"Didn't I\"[53]",
+      "Year": "2020",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "274",
+      "Title": "\"Better Days\"[56]",
+      "Year": "2020",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "275",
+      "Title": "\"Lose Somebody\"[Q] (with Kygo)[58]",
+      "Year": "2020",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "276",
+      "Title": "\"Wild Life\"[S][60]",
+      "Year": "2020",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "277",
+      "Title": "\"Run\"",
+      "Year": "2021",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "278",
+      "Title": "\"Someday\"[62]",
+      "Year": "2021",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "279",
+      "Title": "\"Sunshine\"[65]",
+      "Year": "2021",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "280",
+      "Title": "\"West Coast\"[67]",
+      "Year": "2022",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "281",
+      "Title": "\"You Were Loved\"[70] (with Gryffin)",
+      "Year": "2022",
+      "Artist": "OneRepublic"
+    },
+    {
+      "ID": "282",
+      "Title": "\"I Ain't Worried\"[72]",
+      "Year": "2022",
+      "Artist": "OneRepublic"
     }
   ]
