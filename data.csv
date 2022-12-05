@@ -150,7 +150,7 @@ Oppa Is Just My Style (오빤 딱 내 스타일),PSY,2012,40,66,1573067,"['k-pop
 Gentleman,PSY,2013,60,66,1573067,"['k-pop', 'k-rap', 'korean old school hip hop']",1528299566,3521
 You Belong with Me,Taylor Swift,2009,80,100,63187984,['pop'],1379741677,4918
 Fifteen,Taylor Swift,2009,67,100,63187984,['pop'],163857598,4758
-Fearless,Taylor Swift,2010,71,100,63187984,['pop'],32631,49
+Fearless,Taylor Swift,2010,71,100,63187984,['pop'],32631,5137
 Mine,Taylor Swift,2010,66,100,63187984,['pop'],313936745,4478
 Back to December,Taylor Swift,2010,69,100,63187984,['pop'],283884679,4323
 Mean,Taylor Swift,2011,66,100,63187984,['pop'],215599089,4222
@@ -195,3 +195,87 @@ I Bet You Think About Me,Taylor Swift,2021,74,100,63187984,['pop'],47556696,383
 Message in a Bottle,Taylor Swift,2021,74,100,63187984,['pop'],9150289,387
 I Heart ?,Taylor Swift,2008,21,100,63187984,['pop'],602656,2233
 Beautiful Eyes,Taylor Swift,2008,38,100,63187984,['pop'],698883,5233
+Change,Taylor Swift,2008,61,100,63268187,['pop'],2395637,605
+Breathe,Taylor Swift,2008,64,100,63268187,['pop'],6934042,605
+You're Not Sorry,Taylor Swift,2008,48,100,63268187,['pop'],5921919,605
+American Girl,Taylor Swift,2009,0,100,63268187,['pop'],245124,1845
+Today Was a Fairytale,Taylor Swift,2010,62,100,63268187,['pop'],2700231,605
+Speak Now,Taylor Swift,2010,61,100,63268187,['pop'],901786,1572
+Haunted,Taylor Swift,2011,61,100,63268187,['pop'],886980,1572
+If This Was a Movie,Taylor Swift,2011,57,100,63268187,['pop'],1838560,747
+Superman,Taylor Swift,2011,54,100,63268187,['pop'],396012,1572
+The Moment I Knew,Taylor Swift,2013,65,100,63268187,['pop'],3661060,388
+Come Back... Be Here,Taylor Swift,2013,69,100,63268187,['pop'],5221695,388
+Girl at Home,Taylor Swift,2013,64,100,63268187,['pop'],2377774,388
+Sweeter than Fiction,Taylor Swift,2013,52,100,63268187,['pop'],1167416,1537
+Welcome to New York,Taylor Swift,2014,63,100,63268187,['pop'],2304763,1544
+Wonderland,Taylor Swift,2015,64,100,63268187,['pop'],3024208,1544
+You Are in Love,Taylor Swift,2015,64,100,63268187,['pop'],2769767,1544
+Gorgeous,Taylor Swift,2017,78,100,63268187,['pop'],138950136,1872
+Call It What You Want,Taylor Swift,2017,74,100,63268187,['pop'],86195573,1858
+The Archer,Taylor Swift,2019,71,100,63268187,['pop'],26185942,1230
+Beautiful Ghosts,Taylor Swift,2019,50,100,63268187,['pop'],7547510,1116
+Only the Young,Taylor Swift,2020,63,100,63268187,['pop'],12337457,1039
+The 1,Taylor Swift,2020,76,100,63268187,['pop'],41146729,864
+Mr. Perfectly Fine,Taylor Swift,2021,70,100,63268187,['pop'],32246940,606
+The Lakes,Taylor Swift,2021,67,100,63268187,['pop'],10219828,839
+Carolina,Taylor Swift,2022,71,100,63268187,['pop'],2389284,164
+I Kissed a Girl,Katy Perry,2008,71,84,23758222,"['dance pop', 'pop']",259808463,5290
+Hot n Cold,Katy Perry,2008,70,84,23758222,"['dance pop', 'pop']",1132645969,5165
+Thinking of You,Katy Perry,2009,52,84,23758222,"['dance pop', 'pop']",143673223,5074
+Waking Up in Vegas,Katy Perry,2009,57,84,23758222,"['dance pop', 'pop']",98255900,4966
+California Gurls,Katy Perry,2010,70,84,23758222,"['dance pop', 'pop']",666452023,4556
+Teenage Dream,Katy Perry,2010,72,84,23758222,"['dance pop', 'pop']",304498224,4499
+Firework,Katy Perry,2010,69,84,23758222,"['dance pop', 'pop']",1397325204,4420
+E.T.,Katy Perry,2011,64,84,23758222,"['dance pop', 'pop']",636587028,4267
+Last Friday Night (T.G.I.F.),Katy Perry,2011,74,84,23758222,"['dance pop', 'pop']",1445778165,4193
+The One That Got Away,Katy Perry,2011,74,84,23758222,"['dance pop', 'pop']",943155570,4041
+Part of Me,Katy Perry,2012,69,84,23758222,"['dance pop', 'pop']",932728122,3910
+Wide Awake,Katy Perry,2012,68,84,23758222,"['dance pop', 'pop']",992202329,3821
+Roar,Katy Perry,2013,78,84,23758222,"['dance pop', 'pop']",3691106547,3377
+Unconditionally,Katy Perry,2013,79,84,23758222,"['dance pop', 'pop']",645231085,3302
+Dark Horse,Katy Perry,2013,80,84,23758222,"['dance pop', 'pop']",113005,3366
+Birthday,Katy Perry,2014,62,84,23758222,"['dance pop', 'pop']",297619097,3160
+This Is How We Do,Katy Perry,2014,60,84,23758222,"['dance pop', 'pop']",782248906,3048
+Rise,Katy Perry,2016,63,84,23758222,"['dance pop', 'pop']",206966382,2313
+Chained to the Rhythm,Katy Perry,2017,0,84,23758222,"['dance pop', 'pop']",722785076,2112
+Never Really Over,Katy Perry,2019,70,84,23758222,"['dance pop', 'pop']",150904837,1284
+Harleys in Hawaii,Katy Perry,2019,0,84,23758222,"['dance pop', 'pop']",101518744,1145
+Never Worn White,Katy Perry,2020,50,84,23758222,"['dance pop', 'pop']",37469462,1005
+Daisies,Katy Perry,2020,61,84,23758222,"['dance pop', 'pop']",29271611,934
+Not the End of the World,Katy Perry,2020,54,84,23758222,"['dance pop', 'pop']",24711057,713
+Electric,Katy Perry,2021,62,84,23758222,"['dance pop', 'pop']",45438774,570
+When I'm Gone,Katy Perry,2021,1,84,23758222,"['dance pop', 'pop']",28251818,328
+Apologize,OneRepublic,2007,69,84,14629933,"['piano rock', 'pop']",512661471,4919
+Stop and Stare,OneRepublic,2008,59,84,14629933,"['piano rock', 'pop']",89520955,4760
+Say (All I Need),OneRepublic,2008,44,84,14629933,"['piano rock', 'pop']",32273187,4739
+Mercy,OneRepublic,2008,37,84,14629933,"['piano rock', 'pop']",11351169,4739
+Come Home,OneRepublic,2009,46,84,14629933,"['piano rock', 'pop']",8681256,4738
+All the Right Moves,OneRepublic,2009,66,84,14629933,"['piano rock', 'pop']",173470909,4757
+Secrets,OneRepublic,2009,76,84,14629933,"['piano rock', 'pop']",259088149,4589
+Marchin On,OneRepublic,2010,0,84,14629933,"['piano rock', 'pop']",34455332,4563
+Good Life,OneRepublic,2010,72,84,14629933,"['piano rock', 'pop']",201781721,4311
+If I Lose Myself,OneRepublic,2013,60,84,14629933,"['piano rock', 'pop']",109642934,3601
+Counting Stars,OneRepublic,2013,77,84,14629933,"['piano rock', 'pop']",3685443099,3475
+Something I Need,OneRepublic,2013,57,84,14629933,"['piano rock', 'pop']",65541012,3346
+Love Runs Out,OneRepublic,2014,63,84,14629933,"['piano rock', 'pop']",175346336,3105
+I Lived,OneRepublic,2014,68,84,14629933,"['piano rock', 'pop']",62719531,2992
+Wherever I Go,OneRepublic,2016,62,84,14629933,"['piano rock', 'pop']",107995643,2392
+Kids,OneRepublic,2016,60,84,14629933,"['piano rock', 'pop']",91031427,2292
+Let's Hurt Tonight,OneRepublic,2016,62,84,14629933,"['piano rock', 'pop']",123559546,2189
+No Vacancy,OneRepublic,2017,55,84,14629933,"['piano rock', 'pop']",39416565,2047
+Rich Love,OneRepublic,2017,64,84,14629933,"['piano rock', 'pop']",75872975,1892
+Start Again,OneRepublic,2018,1,84,14629933,"['piano rock', 'pop']",37255490,1626
+Connection,OneRepublic,2018,62,84,14629933,"['piano rock', 'pop']",24664605,1559
+Rescue Me,OneRepublic,2019,70,84,14629933,"['piano rock', 'pop']",140068372,1298
+Wanted,OneRepublic,2019,56,84,14629933,"['piano rock', 'pop']",66231834,1186
+Didn't I,OneRepublic,2020,58,84,14629933,"['piano rock', 'pop']",33804751,997
+Better Days,OneRepublic,2020,63,84,14629933,"['piano rock', 'pop']",11238182,984
+Lose Somebody,OneRepublic,2020,72,84,14629933,"['piano rock', 'pop']",5077969,304
+Wild Life,OneRepublic,2020,58,84,14629933,"['piano rock', 'pop']",10962216,754
+Run,OneRepublic,2021,0,84,14629933,"['piano rock', 'pop']",40009251,578
+Someday,OneRepublic,2021,75,84,14629933,"['piano rock', 'pop']",25755858,464
+Sunshine,OneRepublic,2021,82,84,14629933,"['piano rock', 'pop']",8180051,390
+West Coast,OneRepublic,2022,75,84,14629933,"['piano rock', 'pop']",11514060,283
+You Were Loved,OneRepublic,2022,66,84,14629933,"['piano rock', 'pop']",5077138,247
+I Ain't Worried,OneRepublic,2022,95,84,14629933,"['piano rock', 'pop']",102101188,206
