@@ -17,14 +17,14 @@ def find_n():
         if r2 > max_score:
             max_score = r2
             n = i
-    print("n: \t",n,"\n")
+    print("n: \t",n)
     return n
 
 def knn():
     knn = KNeighborsRegressor(n_neighbors=find_n()).fit(X_train,y_train)
     y_pred = knn.predict(X_test)
     r2 = r2_score(y_test,y_pred)
-    print("r2: \t",r2,"\n")
+    print("r2: \t",r2)
     return y_pred
 
 def plot(y_test,y_pred):
@@ -34,8 +34,8 @@ def plot(y_test,y_pred):
     plt.ylabel('Predicted Views')
     plt.xscale('log')
     plt.yscale('log')
-    plt.xlim((0,2000000000))
-    plt.ylim((0,2000000000))
+    plt.xlim((0,3000000000))
+    plt.ylim((0,3000000000))
     ax.set_box_aspect(1)
     plt.show()
 
@@ -59,13 +59,13 @@ if __name__ == "__main__":
 #         if r2 > max_score:
 #             max_score = r2
 #             depth = i
-#     print("depth: \t",depth,"\n")
+#     print("depth: \t",depth)
 #     return depth
 
 # def dt():
 #     dt = DecisionTreeRegressor(max_depth=find_depth()).fit(X_train,y_train)
 #     y_pred = dt.predict(X_test)
 #     r2 = r2_score(y_test,y_pred)
-#     print("r2: \t",r2,"\n")
+#     print("r2: \t",r2)
 
 #     return y_pred
